@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 10px 20px;
+  text-align: left;
+}
+
+.logo {
+  max-height: 60px;
+}
+
+.sidebar {
+  background-color: #003366;
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 100px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.main-content {
+  margin-left: 200px;
+  padding: 20px;
+  background-color: white;
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #003366;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #003366;
+  color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+button[type="button"] {
+  background-color: #666;
+}
+
+button:hover {
+  background-color: #0055aa;
+}
+
+button[type="button"]:hover {
+  background-color: #444;
+}
+
+p {
+  margin: 10px 0;
+}
+
+p a {
+  color: #003366;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
