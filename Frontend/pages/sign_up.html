@@ -1,14 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="../CSS/structure.css">
+      <link rel="stylesheet" href="../CSS/signup.css">
       <title>Bratsee | Sign Up</title>
 </head>
 
 <body>
+      <div class="sidebar">
+            <p class="sidebar__text">Welcome</p>
+      </div>
 
+      <div class="header">
+            <img src="../Images/Logotipo-BratSee.png" alt="BratSee Logo" class="header__logo">
+      </div>
+
+      <div class="main_content">
+            <h1 class="main_content__title">SIGN UP</h1>
+            <form class="main_content__form">
+                  <input type="text" placeholder="Primer Nombre" class="main_content__input">
+                  <input type="text" placeholder="Segundo Nombre" class="main_content__input">
+                  <input type="text" placeholder="Primer Apellido" class="main_content__input">
+                  <input type="text" placeholder="Segundo Apellido" class="main_content__input">
+                  <select id="dropdown_menu" class="main_content__input">
+                        <option value="option1">Documento de Identificación Nacional</option>
+                        <option value="option2">Identificación de Menor de Edad</option>
+                  </select>
+                  <input type="number" placeholder="Número de Identificación" class="main_content__input">
+                  <input type="email" placeholder="Email" class="main_content__input">
+                  <input type="email" placeholder="Confirm your Email" class="main_content__input">
+                  <input type="password" placeholder="Type your Password" class="main_content__input">
+                  <input type="password" placeholder="Confirm your Password" class="main_content__input">
+
+                  <div class="main_content__buttons">
+                        <button type="submit" class="main_content__button">Accept</button>
+                        <button type="button" class="main_content__button">Cancel</button>
+                  </div>
+            </form>
+      </div>
 </body>
 
 </html>
