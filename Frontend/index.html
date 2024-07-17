@@ -4,31 +4,31 @@
 <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./CSS/style.css">
       <title>Bratsee | Sign In</title>
-      <link rel="stylesheet" href="./style/style.css">
 </head>
 
 <body>
-      <div class="header">
-            <img src="./Images/Logotipo-BratSee.png" alt="BratSee Logo" class="logo">
-      </div>
       <div class="sidebar">
-            <ul>
-                  <li><a href="#">Welcome!</a></li>
-            </ul>
+            <p class="sidebar__text">Welcome</p>
       </div>
-      <div class="main-content">
-            <h1>SIGN IN</h1>
-            <form>
-                  <input type="text" placeholder="Nombre de Usuario">
-                  <input type="password" placeholder="Contraseña">
-                  <div class="buttons">
-                        <button type="submit">Accept</button>
-                        <button type="button">Cancel</button>
+
+      <div class="header">
+            <img src="./Images/Logotipo-BratSee.png" alt="BratSee Logo" class="header__logo">
+      </div>
+
+      <div class="main_content">
+            <h1 class="main_content__title">SIGN IN</h1>
+            <form class="main_content__form">
+                  <input type="text" placeholder="User Name" class="main_content__input">
+                  <input type="password" placeholder="Password" class="main_content__input">
+                  <div class="main_content__buttons">
+                        <button type="submit" class="main_content__button">Accept</button>
+                        <button type="button" class="main_content__button">Cancel</button>
                   </div>
             </form>
-            <p><a href="#">Forgot your password?</a></p>
-            <p><a href="#">Not a memeber yet?</a></p>
+            <p><a href="#" class="main_content__password">Forgot your password?</a></p>
+            <p><a href="#" class="main_content__registration">Not a memeber yet?</a></p>
       </div>
 </body>
 
